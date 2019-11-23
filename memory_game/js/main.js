@@ -5,6 +5,18 @@ console.log("user flipped " + cardTwo);
 var cards = ["queen", "queen", "king", "king"];
 var cardsInPlay = [];
 var cardOne = cards[0];
-cardsInplay.push(cardOne)
+cardsInPlay.push(cardOne)
 var cardTwo = cards[2];
-cardsInplay.push(cardTwo)
+cardsInPlay.push(cardTwo)
+
+if(cardsInPlay.length === 2)
+{
+	if(cardsInPlay[0] === cardsInPlay[1])
+	{
+		alert("you found a match!")
+	}
+	else
+	{
+		alert("Sorry, try again.")
+	}
+}
