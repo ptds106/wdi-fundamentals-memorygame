@@ -49,11 +49,11 @@ header{
 nav{
 	background-color: #00A6B3;
 	color: #FFFFFF;
-	padding: 20px 0px;
+	padding: 20px 0px 20px 0px;
 }
 main{
 	width: 850px;
-	margin: 35px auto;
+	margin: 35px auto 35px;
 }
 div img{
 	padding: 40px 8px 0px 8px;
